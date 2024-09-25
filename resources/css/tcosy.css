@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: "Helvetica", "sans-serif";
+    color: seashell; 
+    font-size: 22px;
+    background-color: black;
+    
+    
+}
+
+.header {
+    position: fixed;
+    top: -10;
+    left: 0;
+    right: 0;
+    background-color: Black;
+    height: 69px;
+    margin: 10px;
+    border-bottom: 1px solid seashell;
+    display: flex; 
+    justify-content: space-between;   
+}
+
+ul li {
+    display: inline ;
+    text-decoration: underline;
+    padding: 20px;
+    
+}
+
+.container1 {
+        margin-top:-10px;
+        margin-left: 120px;
+        margin-right: 120px;
+        width: 1200px;
+        height: 700px;
+        background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+}
+        
+#box1 {
+        width: 1200px;
+        background-color: black;
+        text-align: center;
+    
+}
+
+#box2 {
+    height: 120px;
+    text-align: center;
+}
+
+h4 {
+    text-align:center;
+    } 
+  
+.container2 {
+   
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    
+
+}
+
+.item {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.container3 {
+    margin-left: 120px;
+    margin-right: 120px;
+    height: 700px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    display:flex;
+    align-items: center;
+    }
+
+
+.box3 {
+     width: 300px;
+     height: 250px;
+     background-color: black;
+     text-align: center;
+     margin:15px;
+     position: relative;
+     right: 90px;
+}
+
+.items1 {
+    height: 25px;
+    padding: 10px;
+    position: relative;
+    left: 475px;
+    top: -170px;
+    
+}
+
+ .footer {
+    margin-left: 120px;
+    margin-right: 120px;
+    width: 1200px;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+ }
+
+ #tele {
+    text-align: center;
+ }
+
+ #cright {
+    width: 1000px;
+    height: 30px;
+    text-align: left;
+    margin-left: 20px;
+ }
